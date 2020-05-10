@@ -1,5 +1,6 @@
 # dont want to commit our personal data
 *.html
+*.json
 
 # Created by https://www.gitignore.io/api/git,macos,pycharm+all
 # Edit at https://www.gitignore.io/?templates=git,macos,pycharm+all
