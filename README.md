@@ -13,10 +13,17 @@ An easy way for you to download **your own** profile data
 A way for you to download **others'** profile data. Please do not misuse this
 
 ### How
+
+#### Setup
 In a chrome tab open the developer console `(ctrl+opt+j)`. 
 In the Elements tab right click the topmost html element and select
 `Edit as HTML`. Copy and paste in a file named `linkedin_profile.html`.
 
+Make sure you expand all text areas so that all possible content is loaded.
+Some content is simply hidden, but we want to make sure to capture all
+content that's rendered dynamically.
+
+#### Run
 To run the script
 
 ```shell script
